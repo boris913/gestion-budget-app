@@ -1,22 +1,35 @@
 # GraphQL Crash Course - Build an Expense Tracker App
 
-![Demo App](https://i.ibb.co/WHyMscm/Screenshot-42.png)
+![Demo App](frontend/public/gestio-budget.png)
 
-[Video Tutorial on Youtube](https://youtu.be/Vr-QHtbmd38)
 
-Welcome to the MERN GraphQL Expense Tracker App! This project is designed to help you manage your expenses efficiently using a modern tech stack and GraphQL.
+# Application de Gestion des Transactions
 
-## Features:
+## Description
 
--   🌟 Tech stack: MERN (MongoDB, Express.js, React.js, Node.js) + Apollo GraphQL
--   📝 Learn type definitions and resolvers for defining GraphQL schema and data fetching logic
--   🔄 Mutations for modifying data in the GraphQL API and establishing graph relations
--   🎃 Authentication with Passport.js and MongoDB session store
--   🚀 Global state management with Apollo Client
--   🐞 Error handling both on the server and on the client
--   ⭐ Deployment made easy with a platform called Render
--   👾 Cron jobs for scheduled tasks and automation
--   ⏳ And much more!
+Ceci est une application de gestion des transactions qui permet aux utilisateurs de gérer leurs transactions, y compris l'ajout, la mise à jour et la suppression de transactions. L'application fournit également une représentation visuelle des statistiques de transactions à l'aide de graphiques. L'application est construite en utilisant React, Apollo Client et GraphQL.
+
+## Fonctionnalités
+
+- Ajouter, mettre à jour et supprimer des transactions
+- Visualiser les statistiques des transactions avec des graphiques
+- Authentification des utilisateurs
+- Design réactif
+
+## Technologies Utilisées
+
+- React
+- Apollo Client
+- GraphQL
+- Chart.js
+- Tailwind CSS
+
+## Installation
+
+1. Clonez le dépôt :
+
+```bash
+git clone https://github.com/votre-nom-utilisateur/transaction-management-app.git
 
 ### Setup .env file
 
